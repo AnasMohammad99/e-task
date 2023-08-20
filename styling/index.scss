@@ -1,0 +1,26 @@
+// variables & functions
+@import 'functions';
+@import 'variables';
+
+// base & layout
+@import 'base';
+@import 'breakpoints';
+@import 'grid';
+
+// colors
+@import "colors";
+
+// components (button, card, navbar etc)
+.top_body{
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/1*5lyavS59mazOFnb55Z6znQ.png");
+    background-repeat: no-repeat;
+    height: 30rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+@import 'components/card';
+@import 'components/cards';
+@import 'components/button';
+@import 'components/navbar';
+
+// utilities (margin, padding, opacity, etc)
+@import 'utilities';
